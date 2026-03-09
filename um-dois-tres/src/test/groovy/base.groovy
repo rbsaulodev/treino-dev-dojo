@@ -11,7 +11,7 @@ class base extends Specification {
 
     }
 
-    void "testando entrada 1 | BaseEnsaio2_750"() {
+    void "testando entrada 1 | BaseEnsaio2_150"() {
         given:
         String palavrasDeEntrada = "3,owe,too,theee"
         String saidaEsperada = "1,2,3"
@@ -35,7 +35,7 @@ class base extends Specification {
         saidaEsperada == resultadoObtido
     }
 
-    void "testando entrada 3 | BaseEnsaio2_750"() {
+    void "testando entrada 3 | BaseEnsaio2_250"() {
         given:
         String palavrasDeEntrada = "2,too,owe"
         String saidaEsperada = "2,1"
